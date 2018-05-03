@@ -1,4 +1,4 @@
-# Django - Class Material - W1C1
+# Django - Class Material - W2C2
 
 
 ## Setup Instructions
