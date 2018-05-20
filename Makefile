@@ -3,14 +3,12 @@
 TAG="\n\n\033[0;32m\#\#\# "
 END=" \#\#\# \033[0m\n"
 
-# HOST=0.0.0.0
-HOST=localhost
+HOST=0.0.0.0
 PORT=8080
 PROJECT_NAME=sample_project
 PYTHONPATH=$(PROJECT_NAME)
 DJANGO_SETTINGS=$(PROJECT_NAME).settings
 
-# django-command = django-admin $(1) $(HOST):$(PORT) --settings $(DJANGO_SETTINGS) --pythonpath $(PYTHONPATH)
 django-command = django-admin $(1) $(2) --settings $(DJANGO_SETTINGS) --pythonpath $(PYTHONPATH)
 
 runserver:
